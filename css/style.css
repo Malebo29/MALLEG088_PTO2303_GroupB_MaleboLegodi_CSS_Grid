@@ -96,6 +96,9 @@ gap: 10px;
 
 .categories {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .category {
@@ -121,6 +124,7 @@ button:hover {
 
 .sponsors {
     display: grid;
+    grid-template-columns: repeat(5, 2fr);
     text-align: center;
 }
 
@@ -134,7 +138,8 @@ button:hover {
 #footer {
     background-color: rgb(31, 31, 31);
     color: white;
-
+display: grid;
+grid-template-columns: repeat(2, 2fr);
     padding: 2rem;
     text-align: center;
 }
